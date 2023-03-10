@@ -1,0 +1,215 @@
+.product {
+    width: 338px;
+    background: #FBF9FA;
+    border: 1px solid #956D84;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    position: relative;
+    display: table;
+    }
+
+    .product:hover{
+        box-shadow: 0px 10px 30px 3px #9170e9;
+    }
+    
+    .top-info{
+        position: relative;
+    }
+    
+    .main{
+        display: flex;
+    }
+    
+    .btn-1 {
+        /*Кнопка*/
+    display: table;
+    font-size: 26px;    
+    text-align: center;
+    background: #956D84;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    color: white;
+    margin: auto;
+    padding: 10px;  
+    width: 300px;
+    _margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 7px 5px 20px 5px gray;      
+    }
+
+    .btn-1:hover{
+        background-color: plum;
+    }
+
+    .btn-1:active{
+        background-color: purple;
+    }
+    
+    .order {
+        text-decoration: underline #956D84;
+        display: table;
+        margin: auto;
+        cursor: -webkit-grab;
+        
+    }
+        
+    .price-s {
+        color: gray;
+         float: right;
+         padding-right: 2px;
+      
+    }
+    
+    .price-grn {
+        color: #956D84;
+        float: right;
+        clear: right;
+    }
+
+    .price-s:hover{
+        box-shadow: 7px 5px 20px 5px gray;
+        background: rgb(233, 230, 230);
+        border-radius: 100px;
+        padding: 4px 7px ;
+        transition: all 0.5s;
+        cursor: grab;
+
+    }
+    
+    .bottom { /*Нижний блок*/
+        width: 338px;
+        height: auto;
+        background: white;
+        _border: 1px solid #956D84;
+        _box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        _border-top: none;
+        position: relative;
+        display: table;
+        padding: 10px;
+    
+       
+    }
+    
+    h1 {
+        text-align: center ;
+    }
+    
+    .sale{
+        width: 56px;
+        height: 56px;
+        border: 1px dashed #E72222;
+        margin: 8px;
+        border-radius: 56px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #956D84;
+        line-height: 55px;
+        text-align: center;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        animation: 0,5s linear  infinite running rot;
+        -webkit-animation: 0,5s linear  infinite running rot;
+        
+    }
+
+    @keyframes rot {
+       
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @-webkit-keyframes rot {
+    
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+    .sale:hover{
+        transform: rotate(360deg); 
+        transition: all 3s;
+    }
+
+    
+    .top {
+        width: 32px;
+        height: 32px;
+        border: 1px ;
+        _position: absolute;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 56px;
+        font-size: 16px;
+        color: #956D84;
+        line-height: 32px;
+        text-align: center;
+        background:rgba(157, 117, 140, 0.39);
+        display: table;
+        bottom:0;
+       
+    }
+
+    .top:hover{
+        background-color: pink;  
+    }
+    
+    .heart {
+        position: absolute;
+        top: 30px;
+        right: 15px;
+        height: 40px;
+        width: 40px;
+        background: url(images/3.svg)  no-repeat center ;
+        border:none
+        transition: all 0.3s;
+        font-size: 20px;
+        cursor: pointer;
+        box-sizing:border-box; 
+        border-radius: 25px;  
+    }
+
+    .heart:hover{
+        width: 50px;
+        height: 50px;
+        display: block;
+        border-style: none;
+        transition: all 0.5s;
+        font-size: 30px;
+       _box-shadow: 5px 5px 20px 5px red;
+        transform: scale(1.5);
+       
+       
+        
+       
+       
+       
+       
+      
+        
+    
+    }
+    .rosa {
+        position: relative; 
+        _top: 50px;
+        left: 45px;
+    }
+    
+    .roses-101 {
+        float: left;
+        padding-top: 25px;
+        margin: 10px
+       
+    }
+    
+    .one {
+        margin-bottom: 25px;
+        
+    }
+    
+    .clear {
+        clear:both; 
+    }

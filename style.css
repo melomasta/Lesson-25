@@ -25,7 +25,7 @@
     display: table;
     font-size: 26px;    
     text-align: center;
-    background: #956D84;
+    background: #61c3ed;
     box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.15);
     border-radius: 7px;
     color: white;
@@ -164,7 +164,7 @@
         height: 40px;
         width: 40px;
         background: url(images/3.svg)  no-repeat center ;
-        border:none
+        border:none;
         transition: all 0.3s;
         font-size: 20px;
         cursor: pointer;
